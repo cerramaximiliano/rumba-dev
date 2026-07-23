@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@400;600;700;800&family=Ubuntu:wght@300;400;500;700&display=swap');
+@import "tailwindcss";
+
+:root {
+  --navy: #15204d;
+  --cream: #f8f6ee;
+  --teal: #68ccd1;
+  --yellow: #efe719;
+  --text-dark: #313131;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+  background-color: var(--cream);
+  color: var(--text-dark);
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Exo', sans-serif;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: left;
+}
